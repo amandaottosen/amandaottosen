@@ -1,0 +1,312 @@
+/*****BASE STYLES*****/
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/**COLORS ARE:
+blue: #8DD4D8
+orange: #EB9363
+purple: #8C586E (matches logo)
+deep purple: #423554
+gray: #5F5F6D
+**/
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.left-width{
+  width: 568px;
+  float: left;
+}
+.right-width{
+  width: 568px;
+  float: right;
+}
+.less-than-width{
+  width: 550px;
+  float: left;
+}
+.more-than-width{
+  width: 650px;
+  float: right;
+}
+
+/***** HEADER *****/
+header{
+  height: 800px;
+  background-image: url('../img/color-mountains.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+.secondary-header{ /**header for work/about/connect pages**/
+  height: 600px;
+  background-image: url('../img/blue-mountains.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+header h1{ /**name - home**/
+  font-family: 'Syncopate', sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  color: #423554;
+}
+.secondary-header h1{
+  color: white;
+  font-size: 150px;
+}
+#connect-header h1{
+  color: white;
+  font-size: 120px;
+}
+header h4{ /**quote**/
+  font-size: 25px;
+  font-weight: 300;
+  color: #423554;
+  margin: -20px 0 0 0;
+}
+header h5{ /**author**/
+  font-size: 20px;
+  font-weight: 300;
+  color: #423554;
+  margin: 0px 0 0 400px;
+}
+#heading-space{
+  margin: 170px 0 0 150px;
+}
+#heading-line{ /**white vertical line on left side of header - home**/
+  border: 3px solid white;
+  float: left;
+  width: 0px;
+  height: 350px;
+  margin-right: 30px;
+  clear: both;
+}
+#work-heading-line{
+  border: 3px solid white;
+  float: left;
+  width: 450px;
+  height: 0px;
+  margin: -80px 0 0 120px;
+  clear: both;
+}
+#about-heading-line{
+  border: 3px solid white;
+  float: left;
+  width: 530px;
+  height: 0px;
+  margin: -80px 0 0 120px;
+  clear: both;
+}
+#connect-heading-line{ /**white horizontal line in header - connect**/
+  border: 3px solid white;
+  float: left;
+  width: 630px;
+  height: 0px;
+  margin: -80px 0 0 120px;
+  clear: both;
+}
+.nav-logo{ /**homepage link**/
+  height: auto;
+  width: 40px;
+}
+nav{ /*****navigation links in top right*****/
+  float: right;
+  margin: -550px 0 30px 0;
+  padding: 50px 30px;
+  clear: both;
+}
+.secondary-header nav{
+  float: right;
+  margin: -465px 0 30px 0;
+  padding: 50px 30px;
+  clear: both;
+}
+#connect-header nav{
+  float: right;
+  margin: -410px 0 30px 0;
+  padding: 50px 30px;
+  clear: both;
+}
+nav ul li{
+  display: inline-block;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 20px;
+  padding-left: 80px;
+}
+.nav-links{ /**makes links NOT underlined and blue**/
+  color: #8C586E;
+  text-decoration: none;
+}
+#media-links{
+  float: right;
+  margin: 20px 60px 30px 0;
+}
+.secondary-media-links{
+  float: right;
+  margin: -60px 60px 30px 0;
+}
+#connect-media-links{
+  float: right;
+  margin: -5px 60px 30px 0;
+}
+header div ul{ /**list for media icons**/
+  list-style-type: none;
+}
+.media-icons{ /**media icons**/
+  height: auto;
+  width: 40px;
+  margin-top: 30px;
+  opacity: 0.65;
+}
+
+/***** BODY *****/
+main h3{
+  font-size: 35px;
+}
+main p{
+  font-size: 27px;
+}
+.left-body{
+  border-right: 4px solid #EB9363;
+  padding-right: 30px;
+  margin: 80px 0;
+  float: left;
+}
+.example-divider{ /**horizontal line between work samples**/
+  border: 1.5px solid #EB9363;
+  margin: 20px 30px 20px 30px;
+  width: 480px;
+  height: 0px;
+}
+.example-pic{ /**sizing for picture/links of work samples**/
+  display: block;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  width: 450px;
+  height: auto;
+}
+.right-body{
+  margin: 80px 0;
+  padding-left: 30px;
+  float: right;
+}
+#body-logo{ /**large logo on right side of body**/
+  width: 400px;
+  height: auto;
+  margin: 80px 0 0 84px;
+}
+/**ABOUT**/
+.about-pics{ /**sizing for pics in about**/
+  height: auto;
+  width: 300px;
+  border-bottom: 4px solid #8DD4D8;
+  border-right: 4px solid #8DD4D8;
+}
+#amanda{ /**alignment for pics in about**/
+  margin: 80px 0 0 50px;
+}
+#cats{ /**alignment for pics in about**/
+  margin: -40px 0 0 150px;
+}
+#husband{ /**alignment for pics in about**/
+  margin: -40px 0 80px 100px;
+}
+#short-bio{
+  margin: 80px 0 80px 0;
+}
+#short-bio h1{
+  font-size: 45px;
+  text-align: left;
+}
+#short-bio p{
+  font-size: 28px;
+  text-align: left;
+}
+/**CONNECT**/
+#top-body{
+  height: 720px;
+  margin: 50px 30px 30px 30px;
+  text-align: center;
+}
+#left-connect{
+  border-right: 1.5px solid #EB9363;
+}
+#left-connect h1{
+  font-size: 40px;
+  color: #8C586E;
+}
+#left-connect form{
+  font-size: 20px;
+  margin: -20px 30px 80px 0;
+  text-align: left;
+}
+.button{
+  height: auto;
+  width: 150px;
+  margin: 0 0px 0 60px;
+}
+#right-connect{
+  margin-top: 160px;
+}
+#right-connect h1{
+  font-size: 60px;
+  color: #8C586E;
+}
+#bottom-body{
+  border-top: 4px solid #EB9363;
+}
+#connect-logo{
+  height: auto;
+  margin: 50px 0 50px 450px;
+  width: 300px;
+}
+
+/***** FOOTER *****/
+footer{
+  clear: both;
+  background: #5F5F6D;
+  overflow: auto;
+  padding: none;
+  margin: none;
+  height: 240px;
+}
+footer ul li{ /**page links**/
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 25px;
+  color: #8DD4D8;
+  padding-left: 78px;
+}
+.foot-links{
+  color: #8DD4D8;
+  text-decoration: none;
+}
+.right-footer{ /**"Questions?"**/
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: right;
+  color: #8DD4D8;
+  font-size: 20px;
+  padding: -80px 20px 0 20px;
+}
+.right-footer a{
+  color: #8DD4D8;
+  text-decoration: underline;
+}
+footer p{ /**credit for icons**/
+  text-align: center;
+  color: #8DD4D8;
+  font-size: 15px;
+}
